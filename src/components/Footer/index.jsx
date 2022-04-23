@@ -7,12 +7,14 @@ import { BsInstagram } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { BsGithub } from "react-icons/bs";
 
+import Banner from '../../assets/bannerFooter.svg';
+
 export default function Footer() {
   return (
     <footer>
-      <a href="#" className="footer-logo">
-        Nilo - Dev Front-end Jr.
-      </a>
+      <section className="img-banner">
+        <img src={Banner} alt="Imagem banner footer" />
+      </section>
 
       <ul className="permalinks">
         <li>

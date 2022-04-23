@@ -48,8 +48,20 @@ footer a {
 }
 
 .footer-copyright {
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
   color: var(--color-bg);
+}
+
+.img-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -4rem
+}
+
+.img-banner img {
+  width: 300px;
+  height: 300px;
 }
 
 /*  ------------------------------ Media Queries = Medium Devices ----------------------------------  */
