@@ -22,7 +22,7 @@ export default function Header(){
           <img src={Me} alt="Minha foto" />
         </div>
 
-        <a href="#contact" className="scroll-down">Scroll Down</a>
+        <a href="#about" className="scroll-down">Scroll Down</a>
       </div>
     </header>
   );
