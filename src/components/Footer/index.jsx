@@ -21,19 +21,19 @@ export default function Footer() {
           <a href="#">Home</a>
         </li>
         <li>
-          <a href="#about">About</a>
+          <a href="#about">Sobre mim</a>
         </li>
         <li>
-          <a href="#services">Services</a>
+          <a href="#experience">Conhecimentos</a>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <a href="#services">Serviços</a>
         </li>
         <li>
-          <a href="#portifolio">portifolio</a>
+          <a href="#portifolio">Portifólio</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact">Contato</a>
         </li>
       </ul>
 

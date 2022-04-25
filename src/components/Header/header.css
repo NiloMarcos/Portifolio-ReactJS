@@ -5,9 +5,15 @@ header {
 }
 
 .header-container {
-  text-align: center;
-  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 85%;
   position: relative;
+}
+
+.header-container-info {
+  margin-top: -6rem;
 }
 
 /* ============================== CTA =================================== */
@@ -39,11 +45,12 @@ header {
 .me {
   background: linear-gradient(var(--color-primary), transparent);
   width: 22rem;
-  height: 30rem;
+  height: 24rem;
   position: absolute;
-  left: calc(50% - 11rem);
+  left: calc(80% - 11rem);
   border-radius: 3rem;
   margin-top: 4rem;
+  margin-bottom: 6rem;
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem;
 }
