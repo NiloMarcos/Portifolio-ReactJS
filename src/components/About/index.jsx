@@ -9,8 +9,8 @@ import { BiCodeAlt } from 'react-icons/bi';
 export default function About(){
   return(
     <section id="about">
-      <h5>Get To Know</h5>
-      <h2>About Me</h2>
+      <h5>About Me</h5>
+      <h2>Sobre mim</h2>
 
       <div className="container about-container">
         <div className="about-me">

@@ -7,8 +7,8 @@ import { BsCheck2Circle } from 'react-icons/bs';
 export default function Services(){
   return(
     <section id="services">
-      <h5>What i Offer</h5>
-      <h2>Services</h2>
+      <h5>What I Offer</h5>
+      <h2>Serviços</h2>
 
       <div className="container services-container">
         <article className="service">

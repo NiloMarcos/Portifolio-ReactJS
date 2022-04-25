@@ -7,8 +7,8 @@ import Project from '../../assets/project.png';
 export default function Portifolio(){
   return(
     <section id="portifolio">
-      <h5>My Recent Work</h5>
-      <h2>Portifolio</h2>
+      <h5>Projects</h5>
+      <h2>Portifólio</h2>
 
       <div className="container portifolio-container">
         <article className="portifolio-item">

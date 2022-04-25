@@ -23,7 +23,7 @@ export default function Contact(){
   return(
     <section id="contact">
       <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
+      <h2>Contato</h2>
 
       <div className="container contact-container">
         <div className="contact-options">
@@ -49,9 +49,9 @@ export default function Contact(){
           </article>
         </div>
         <form ref={form} onSubmit={sendEmail}>
-          <input type="text" name="name" placeholder="Seu nome" required />
+          <input type="text" name="name" placeholder="Nome Completo" required />
           <input type="email" name="email" placeholder="Email" required />
-          <textarea name="message" rows="7" placeholder="Mensagem" required></textarea>
+          <textarea name="message" rows="7" placeholder="Descreva seu problema!" required></textarea>
           <button type="submit" className="btn btn-primary">Enviar Mensagem</button>
         </form>
       </div>
