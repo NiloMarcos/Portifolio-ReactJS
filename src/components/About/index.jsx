@@ -35,8 +35,8 @@ export default function About(){
             
             <article className="about-card">
               <BiCodeAlt className="about-icon"/>
-              <h5>Projetos</h5>
-              <small>15+</small>
+              <h5>Prototipos</h5>
+              <small>2+</small>
             </article>
           </div>
 

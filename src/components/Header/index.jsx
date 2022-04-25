@@ -8,13 +8,22 @@ import Me from '../../assets/undraw_product_explainer_3hnc.svg';
 
 import HeaderSocial from './HeaderSocials';
 
+import Typical from 'react-typical';
+
 export default function Header(){
   return(
     <header>
       <div className="container header-container">
         <h5>Hello I'm</h5>
-        <h1>Nilo Marcos</h1>
-        <h5 className="text-light">Desenvolvedor Front-end Jr.</h5>
+        <h2>Nilo Marcos De Freitas</h2>
+        <Typical
+          steps={[
+            'Desenvolvedor Front-end Jr.', 1000, 
+            'Estudante de UI/UX Design.', 1000]}
+          loop={Infinity}
+          wrapper="p"
+          className="text-light"
+        />
         <CTA />
         <HeaderSocial />
 

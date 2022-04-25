@@ -6,7 +6,7 @@ export default function CTA(){
   return(
     <div className="cta">
       <a href={CV} download className="btn">Download CV</a>
-      <a href="#contact" className="btn btn-primary">ContactLet's Talk</a>
+      <a href="#contact" className="btn btn-primary">Contato</a>
     </div>
   );
 }
