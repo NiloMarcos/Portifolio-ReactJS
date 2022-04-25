@@ -41,10 +41,10 @@ export default function About(){
           </div>
 
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br/>
-            Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,<br/>
-            when an unknown printer took a galley of type and scrambled it to make a type<br/>
-            specimen book. It has survived not only five centuries. <br/>
+            Meu nome é Nilo Marcos. Sou um Front-end developer Jr, <br/> 
+            e venho estudando sobre Ui/Ux Design. Desenvolvo interfaces<br/>
+            modernas visando a melhor experiências de usuário.<br/>
+            Concentrando em performance, animações e responsividade. <br/>
           </p>
 
           <a href="#contact" className="btn btn-primary">Contato</a>

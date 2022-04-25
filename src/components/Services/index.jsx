@@ -13,68 +13,19 @@ export default function Services(){
       <div className="container services-container">
         <article className="service">
           <div className="service-head">
-            <h3>Desenvolvimento Lading Pages</h3>
+            <h3>Desenvolvimento</h3>
           </div>
 
           <ul className="service-list">
             <li>
               <BsCheck2Circle className="service-list-icon"/>
-              <p>Loren, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BsCheck2Circle className="service-list-icon"/>
-              <p>Loren, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BsCheck2Circle className="service-list-icon"/>
-              <p>Loren, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BsCheck2Circle className="service-list-icon"/>
-              <p>Loren, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BsCheck2Circle className="service-list-icon"/>
-              <p>Loren, ipsum dolor sit amet consectetur elit.</p>
+              <p>
+                Desenvolvimento de Landing Pages, Portifólios, blog's e afins</p>
             </li>
           </ul>
         </article>
 
         {/* Fim do que ofereço */}
-
-        <article className="service">
-          <div className="service-head">
-            <h3>Desenvolvimento de sites</h3>
-          </div>
-
-          <ul className="service-list">
-            <li>
-              <BsCheck2Circle className="service-list-icon"/>
-              <p>Loren, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BsCheck2Circle className="service-list-icon"/>
-              <p>Loren, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BsCheck2Circle className="service-list-icon"/>
-              <p>Loren, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BsCheck2Circle className="service-list-icon"/>
-              <p>Loren, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BsCheck2Circle className="service-list-icon"/>
-              <p>Loren, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BsCheck2Circle className="service-list-icon"/>
-              <p>Loren, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-          </ul>
-        </article>
-
 
         <article className="service">
           <div className="service-head">
@@ -84,23 +35,7 @@ export default function Services(){
           <ul className="service-list">
             <li>
               <BsCheck2Circle className="service-list-icon"/>
-              <p>Loren, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BsCheck2Circle className="service-list-icon"/>
-              <p>Loren, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BsCheck2Circle className="service-list-icon"/>
-              <p>Loren, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BsCheck2Circle className="service-list-icon"/>
-              <p>Loren, ipsum dolor sit amet consectetur elit.</p>
-            </li>
-            <li>
-              <BsCheck2Circle className="service-list-icon"/>
-              <p>Loren, ipsum dolor sit amet consectetur elit.</p>
+              <p>Desenvolvimetno de interface</p>
             </li>
           </ul>
         </article>
