@@ -6,7 +6,7 @@ import Project from '../../assets/Rectangle.png';
 
 export default function Portifolio(){
   return(
-    <section id="portifolio">
+    <section id="portifolio" className="container-wrapper">
       <h5>Projects</h5>
       <h2>Portifólio</h2>
 

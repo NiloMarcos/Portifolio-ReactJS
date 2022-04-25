@@ -13,7 +13,7 @@ import { SiFirebase } from 'react-icons/si';
 
 export default function Experience(){
   return(
-    <section id="experience">
+    <section id="experience" className="container-wrapper">
       <h5>Skills</h5>
       <h2>Conhecimentos</h2>
 

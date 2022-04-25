@@ -4,6 +4,10 @@
   gap: 15%;
 }
 
+.container-wrapper {
+  animation: showComponent 3s;
+}
+
 .about-me {
   width: 530px;
   aspect-ratio: 1/1;
@@ -122,4 +126,13 @@
   }
 }
 
+@keyframes showComponent {
+  0% {
+    transform: translateY(100px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
 

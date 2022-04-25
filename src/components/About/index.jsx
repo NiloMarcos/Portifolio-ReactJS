@@ -3,12 +3,15 @@ import React from 'react';
 import './about.css';
 
 import Me from '../../assets/me.jpg';
+
 import { FaAward } from 'react-icons/fa';
 import { BiCodeAlt } from 'react-icons/bi';
 
+import Typical from 'react-typical';
+
 export default function About(){
   return(
-    <section id="about">
+    <section id="about" className="container-wrapper">
       <h5>About Me</h5>
       <h2>Sobre mim</h2>
 

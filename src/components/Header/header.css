@@ -53,7 +53,20 @@ header {
   margin-bottom: 6rem;
   overflow: hidden;
   padding: 5rem 1.5rem 1.5rem;
+  animation: go-up 3s;
+  animation-duration: 5s ease-in-out;
 }
+
+@keyframes go-up {
+  0% {
+    transform: translateY(100px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
 /* ============================== Scroll Down =================================== */
 .scroll-down {
   position: absolute;
@@ -76,6 +89,10 @@ header {
 @media screen and (max-width: 600px) {
   header {
     height: 100vh;
+  }
+
+  .me {
+    display: none;
   }
 
   .header-socials,
