@@ -8,7 +8,7 @@ export default function Portifolio(){
   return(
     <section id="portifolio" className="container-wrapper">
       <h5>Projects</h5>
-      <h2>Portifólio</h2>
+      <h2>Projetos</h2>
 
       <div className="container portifolio-container">
         <article className="portifolio-item">

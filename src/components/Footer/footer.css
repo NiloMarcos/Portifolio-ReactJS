@@ -33,18 +33,12 @@ footer a {
 }
 
 .footer-socials a {
-  background: var(--color-bg);
+  background: transparent;
   color: var(--color-white);
   padding: 0.8rem;
   border-radius: 0.7rem;
   display: flex;
-  border: 1px solid transparent;
-}
-
-.footer-socials a:hover {
-  background: transparent;
-  color: var(--color-bg);
-  border-color: var(--color-bg);
+  border: 1px solid #fff;
 }
 
 .footer-copyright {

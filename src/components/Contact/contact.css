@@ -1,3 +1,7 @@
+#contact h5 {
+  color: var(--color-black);
+}
+
 .contact-container {
   width: 58%;
   display: grid;
@@ -12,12 +16,20 @@
 }
 
 .contact-option {
-  background: var(--color-bg-variant);
+  background: transparent;
   padding: 1.2rem;
   border-radius: 1.2rem;
   text-align: center;
-  border: 1px solid transparent;
+  border: 1px solid var(--color-primary-variant);
   transition: var(--transition);
+}
+
+.contact-option svg {
+  color: var(--color-black);  
+}
+
+.contact-option h4 {
+  color: var(--color-black);
 }
 
 .contact-option:hover {
@@ -36,6 +48,17 @@
   font-size: 0.8rem;
 }
 
+.btn-submit-form {
+  max-width: 120px;
+  width: 100%;
+  font-size: 14px;
+  background-color: var(--color-primary);
+  height: 45px;
+  padding: 0 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+}
 
 /*========================= Form ========================= */
 form {
@@ -46,12 +69,12 @@ form {
 
 input, textarea {
   width: 100%;
-  padding: 1.5rem;
+  padding: 1rem;
   border-radius: 0.5rem;
   background-color: transparent;
   border: 2px solid var(--color-primary-variant);
   resize: none;
-  color: var(--color-white);
+  color: var(--color-black);
 }
 
 /*  ------------------------------ Media Queries = Medium Devices ----------------------------------  */

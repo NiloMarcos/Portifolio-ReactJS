@@ -42,7 +42,7 @@ export default function Contact(){
             <BsWhatsapp className="contact-option-img" />
             <h4>WhatsApp</h4>
             <h5>(11) 95230-9205</h5>
-            <a href="https://api.whatsapp.com/send?phone=11952309205" target="_blank">Envie um email</a>
+            <a href="https://api.whatsapp.com/send?phone=11952309205" target="_blank">Entre em contato pelo WhatsApp</a>
           </article>
           
           <article className="contact-option">
@@ -56,7 +56,7 @@ export default function Contact(){
           <input type="text" name="name" placeholder="Nome Completo" required />
           <input type="email" name="email" placeholder="Email" required />
           <textarea name="message" rows="7" placeholder="Descreva seu problema!" required></textarea>
-          <button type="submit" className="btn btn-primary">Enviar Mensagem</button>
+          <button type="submit" className="btn-submit-form">Enviar</button>
         </form>
       </div>
     </section>

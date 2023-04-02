@@ -1,3 +1,7 @@
+#experience h5 {
+  color: #000;
+}
+
 .experience-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -5,10 +9,10 @@
 }
 
 .experience-container > div {
-  background: var(--color-bg-variant);
+  background: transparent;
   padding: 2.4rem 5rem;
   border-radius: 2rem;
-  border: 1px solid transparent;
+  border: 1px solid var(--color-primary);
   transition: var(--transition);
 }
 
@@ -38,6 +42,10 @@
 .experience-details-icon {
   margin-top: 6px;
   color: var(--color-primary);
+}
+
+.titleTech {
+  color: #000;
 }
 
 @media screen and (max-width: 1024px) {

@@ -1,3 +1,7 @@
+#portifolio h5 {
+  color: #000;
+}
+
 .portifolio-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -5,11 +9,15 @@
 }
 
 .portifolio-item {
-  background: var(--color-bg-variant);
+  background: transparent;
   padding: 1.2rem;
   border-radius: 2rem;
-  border: 1px solid transparent;
+  border: 1px solid var(--color-primary-variant);
   transition: var(--transition)
+}
+
+.portifolio-item h3 {
+  color: #000;
 }
 
 .portifolio-item:hover {
@@ -28,6 +36,7 @@
 
 .link-repos {
   margin-top: 1.5rem;
+  color: var(--color-primary-variant);
 }
 
 .coffe-link {

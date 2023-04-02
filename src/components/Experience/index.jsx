@@ -2,7 +2,7 @@ import React from 'react';
 
 import './experience.css';
 
-import { BsPatchCheckFill } from 'react-icons/bs';
+import { SiArchlinux, SiTypescript } from 'react-icons/si';
 import { AiFillHtml5 } from 'react-icons/ai';
 import { DiCss3 } from 'react-icons/di';
 import { DiMysql } from 'react-icons/di';
@@ -24,36 +24,50 @@ export default function Experience(){
             <article className="experience-details">
               <AiFillHtml5 className="experience-details-icon"/>
               <div>
-                <h4>HTML</h4>
+                <h4 className='titleTech'>HTML</h4>
                 <small className="text-light">Avançado</small>
               </div>
             </article>
             <article className="experience-details">
               <DiCss3 className="experience-details-icon" />
               <div>
-                <h4>CSS</h4>
+                <h4 className='titleTech'>CSS</h4>
                 <small className="text-light">Intermediario</small>
               </div>
             </article>
             <article className="experience-details">
               <SiJavascript className="experience-details-icon" />
               <div>
-                <h4>JavaScript</h4>
+                <h4 className='titleTech'>JavaScript</h4>
                 <small className="text-light">Basico/Intermediario</small>
               </div>
             </article>
             <article className="experience-details">
               <FaReact className="experience-details-icon" />
               <div>
-                <h4>ReactJS</h4>
+                <h4 className='titleTech'>ReactJS</h4>
                 <small className="text-light">Intermediario</small>
               </div>
             </article>
             <article className="experience-details">
               <FaReact className="experience-details-icon" />
               <div>
-                <h4>React Native</h4>
+                <h4 className='titleTech'>React Native</h4>
                 <small className="text-light">Intermediario</small>
+              </div>
+            </article>
+            <article className="experience-details">
+              <SiArchlinux className="experience-details-icon" />
+              <div>
+                <h4 className='titleTech'>VTEX</h4>
+                <small className="text-light">Intermediario</small>
+              </div>
+            </article>
+            <article className="experience-details">
+              <SiTypescript className="experience-details-icon" />
+              <div>
+                <h4 className='titleTech'>TypeScript</h4>
+                <small className="text-light">Básico</small>
               </div>
             </article>
           </div>
@@ -65,21 +79,21 @@ export default function Experience(){
             <article className="experience-details">
               <FaNodeJs className="experience-details-icon" />
               <div>
-                <h4>NodeJS</h4>
+                <h4 className='titleTech'>NodeJS</h4>
                 <small className="text-light">Basico</small>
               </div>
             </article>
             <article className="experience-details">
               <SiFirebase className="experience-details-icon" />
               <div>
-                <h4>Firebase</h4>
+                <h4 className='titleTech'>Firebase</h4>
                 <small className="text-light">Basico</small>
               </div>
             </article>
             <article className="experience-details">
               <DiMysql className="experience-details-icon" />
               <div>
-                <h4>MySQL</h4>
+                <h4 className='titleTech'>MySQL</h4>
                 <small className="text-light">Basico</small>
               </div>
             </article>

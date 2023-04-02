@@ -13,7 +13,7 @@ export default function Services(){
       <div className="container services-container">
         <article className="service">
           <div className="service-head">
-            <h3>Desenvolvimento</h3>
+            <h3>Desenvolvimento Front-End</h3>
           </div>
 
           <ul className="service-list">
@@ -35,7 +35,7 @@ export default function Services(){
           <ul className="service-list">
             <li>
               <BsCheck2Circle className="service-list-icon"/>
-              <p>Desenvolvimetno de interface</p>
+              <p>Desenvolvimento de interfaces</p>
             </li>
           </ul>
         </article>
