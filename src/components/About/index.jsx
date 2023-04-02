@@ -1,11 +1,12 @@
 import React from 'react';
 
-import './about.css';
-
 import Me from '../../assets/me.jpg';
 
 import { FaAward } from 'react-icons/fa';
+
 import { BiCodeAlt } from 'react-icons/bi';
+
+import './about.css';
 
 import Typical from 'react-typical';
 
@@ -33,24 +34,22 @@ export default function About(){
             <article className="about-card">
               <BiCodeAlt className="about-icon"/>
               <h5>Projetos</h5>
-              <small>15+</small>
+              <small>+30</small>
             </article>
             
             <article className="about-card">
               <BiCodeAlt className="about-icon"/>
               <h5>Prototipos</h5>
-              <small>2+</small>
+              <small>+5</small>
             </article>
           </div>
 
           <p>
-            Meu nome é Nilo Marcos. Sou um Front-end developer Jr, <br/> 
-            e venho estudando sobre Ui/Ux Design. Desenvolvo interfaces<br/>
-            modernas visando a melhor experiências de usuário.<br/>
-            Concentrando em performance, animações e responsividade. <br/>
+            Sou um Desenvolvedor Front-end Jr, apaixonado por tecnologia, cativado pela área de desenvolvimento front-end, venho me aprimorando mais em Desenvolvimento Web & Mobile.
+            Desenvolvo interfaces modernas visando a melhor experiências de usuário. Concentrando em performance, animações e responsividade.
           </p>
 
-          <a href="#contact" className="btn btn-primary">Contato</a>
+          <a href="#contact" className="btn-about-me">Contato</a>
         </div>
       </div>
     </section>
