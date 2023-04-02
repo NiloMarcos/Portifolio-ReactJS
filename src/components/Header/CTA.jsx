@@ -1,6 +1,6 @@
 import React from 'react';
 
-import CV from '../../assets/Nilo Marcos (1).pdf'
+import CV from '../../assets/cv.pdf';
 
 export default function CTA(){
   return(
